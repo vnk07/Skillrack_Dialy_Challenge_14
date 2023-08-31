@@ -1,0 +1,49 @@
+# *******Skillrack_Dialy_Challenge_14*******
+
+#Program Tenth Digit ODD.
+
+#Question:
+
+Tenth Digit - Odd The program must accept an integer value N and remove digits from the end till an odd digit is in the tenth digit position. N will contain atleast two digits. Boundary Condition(s): 10 <= N <= (2^31)-1 Input Format: The first line contains N. Output Format: The first line contains the integer value having tenth digit as an odd digit. 
+
+Example Input/Output 1: 
+
+Input:
+
+12345 
+
+Output: 
+
+1234 
+
+Example Input/Output 2: 
+
+Input: 
+
+2357 
+
+Output: 
+
+2357 
+
+Example Input/Output 3: 
+
+Input: 
+
+592468 
+
+Output: 
+
+592
+
+#Answer:
+
+string=input()
+while True:
+  tenth=int(string[-2])
+  if tenth%2!=0:
+    break
+  string=dtring[:-1]
+print(string)
+
+#Skillrack_Dialy_Challenge_14.
